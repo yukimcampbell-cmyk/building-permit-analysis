@@ -17,7 +17,7 @@ D. How has construction activity changed over time?
 E. Are certain geographic areas associated with longer permit
 F. Which geographic areas had the highest construction investment each year?
 
-These questions are later answered and analyzed with SQL queries in a later step.
+These questions are investigated and analyzed using SQL queries in step 3.
 
 ## 2. Data Preparation 
 Some key steps in data preparation:
@@ -32,13 +32,13 @@ Some key steps in data preparation:
 ## 3. SQL Analysis + Findings
 SQL queries were used to explore the questions in the first step.
 
-A. Where is construction activity concentrated?
-- Compared permit processing times across Vancouver's geographic areas using aggregations for total permits, total project value, and average project value for each category
+### A. Where is construction activity concentrated?
+- Compared total permit count across Vancouver's geographic areas using aggregations for total permits, as well as total project value, and average project value for each category
 - Identifying areas with high volumes of construction activity could help highlight potential areas of focus for future investigation
 
+The results showed that Downtown had the highest number of total permits at 7384 permits, with Kensington-Cedar Cottage in second with 3150 permits. The geographic area with the lowest number of permits, and the lowest construction activity, was South Cambie with 667.
 
-
-B. Which specific property-use categories have the longest average processing times?
+### B. Which specific property-use categories have the longest average processing times?
 - Grouped building permits by specific property use category and calculated 
 
 C. Do larger projects take longer to process?
