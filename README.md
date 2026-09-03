@@ -14,9 +14,9 @@ I used a REST API to retrieve the Building Permit dataset from Vancouver Open Da
 This data includes information on building permit records from 2017-2026.
 
 ## 1. Pre-Analysis Questions
-**A. Where is construction activity concentrated?**
+A. Where is construction activity concentrated?
 - Identifying areas with high volumes of construction activity could help highlight potential areas of focus for future investigation.
-**B. Which specific property-use categories have the longest average processing times?**
+B. Which specific property-use categories have the longest average processing times?
 - Identifying property-use categories with longer processing times can help highlight areas where permitting processes may require additional time or operational attention.
 **C. Do larger projects take longer to process?**
 **D. How has construction activity changed over time?**
