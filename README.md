@@ -67,19 +67,23 @@ Finding: Average processing times varied substantially across the 85 property-us
 ### 3. Do larger projects take longer to process?
 Analyzed the relationship between project value and permit processing time to determine whether larger construction projects tend to require more time to process. Using CASE WHEN, each permit was sorted into three categories (Small, Medium, Large) based on project value.
 
-Finding: Large projects had the longest processing time at 172.9 days, followed by Medium projects at 115.6 days and Small projects at 65.77. This indicates a strong relationship between project value and permit processing times.
+Finding: Large projects had the longest processing time at 172.9 days, followed by Medium projects at 115.6 days and Small projects at 65.77. This indicates a strong association between project value and permit processing times.
 
 ### 4. How has construction activity changed over time?
 Analyzed permit activity and project values across the years to identify trends in construction investment and volume over time.
 
-Finding: Total project value varied substantially from year to year, with no clear upward or downward trend from 2017–2025. Total construction activity declined in 2020 and 2021, although this analysis does not establish whether the COVID-19 pandemic caused the decline. 2026 was excluded from this comparison because the dataset is incomplete for that year.
+Finding: Total project value varied substantially from year to year, with no clear upward or downward trend from 2017–2025. Total project value declined in 2020 and 2021, although this analysis does not establish whether the COVID-19 pandemic caused the decline. 2026 was excluded from this comparison because the dataset is incomplete for that year.
 
 ### 5. Are certain geographic areas associated with longer permit processing times?
 Compared average permit processing times across Vancouver's geographic areas using aggregations. Again, since some categories had very few records, a minimum threshold of 20 permits was used to reduce the influence of small sample sizes on the average processing times.
 
-Finding: The geographic area with the longest permit processing times was South Cambie and the area with the shortest processing times was Downtown. Interestingly, this contrasts with permit volume in Query 1: Downtown had the highest number of permits, while South Cambie had the lowest.
+Finding: South Cambie had the longest average permit processing time, while Downtown had the shortest among geographic areas meeting the 20-permit threshold. Interestingly, this contrasts with permit volume in Query 1: Downtown had the highest number of permits, while South Cambie had the lowest.
 
 ### 6. Which geographic areas had the highest construction investment each year?
 Aggregated total project value by geographic area and year, then used a `RANK()` window function to identify the geographic area with the highest construction investment in each year. Projects with zero or missing project values were excluded.
 
-Finding: Downtown had the highest total investment for 6 out of the 9 years from 2017-2025. However, Oakridge had the highest total in 2020 and 2021.
+Finding: Downtown had the highest total investment in 6 of the 9 years from 2017–2025. However, Oakridge had the highest total investment in 2020 and 2021.
+
+## D. Visualization
+The Tableau workbook is available in the `tableau/` folder.
+
