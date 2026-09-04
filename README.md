@@ -24,12 +24,13 @@ This data includes information on building permit records from 2017-2026.
 - Identifying property-use categories with longer processing times can help highlight areas where permitting processes may require additional time or operational attention.
   
 **3. Do larger projects take longer to process?**
-  
-  -  Understanding whether project scale is associated with longer processing times can help identify whether larger projects may require additional review or operational resources.
+
+- Understanding whether project scale is associated with longer processing times can help identify whether larger projects may require additional review or operational resources.
     
 **4. How has construction activity changed over time?**
-     
-     - Tracking construction activity over time provides insight into changes in development activity and the overall scale of construction in Vancouver.
+
+- Tracking construction activity over time provides insight into changes in development activity and the overall scale of construction in Vancouver.
+  
 **5. Are certain geographic areas associated with longer permit processing times?**
 
 - Identifying geographic areas with consistently longer processing times can help highlight potential operational bottlenecks and areas that may warrant further investigation.
