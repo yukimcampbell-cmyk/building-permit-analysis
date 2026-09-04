@@ -60,7 +60,7 @@ Compared total permit count across Vancouver's geographic areas using aggregatio
 Finding: Downtown had the highest number of total permits at 7384 permits, with Kensington-Cedar Cottage in second with 3150 permits. The geographic area with the lowest number of permits was South Cambie with 667.
 
 ### 2. Which specific property-use categories have the longest average processing times?
-Grouped building permits by specific property use category and calculated the average processing times for each category. Since some categories had very few rows of data, the minimum for the number of total permits was set to 20 to prevent inaccurate representations when calculating average.
+Grouped building permits by specific property use category and calculated the average processing times for each category. Since some categories had very few records, a minimum threshold of 20 permits was used to reduce the influence of small sample sizes on the average processing times.
 
 Finding: Average processing times varied substantially across the 85 property-use categories. Multiple Dwellings and Parking Garages had the highest average processing time at 487.47 days, while Park or Playground averaged 21.82 days.
 
@@ -75,7 +75,7 @@ Analyzed permit activity and project values across the years to identify trends 
 Finding: Total project value varied substantially from year to year, with no clear upward or downward trend from 2017–2025. Total construction activity declined in 2020 and 2021, although this analysis does not establish whether the COVID-19 pandemic caused the decline. 2026 was excluded from this comparison because the dataset is incomplete for that year.
 
 ### 5. Are certain geographic areas associated with longer permit processing times?
-Compared average permit processing times across Vancouver's geographic areas using aggregations. Again, since some categories had very few rows of data, the minimum for the number of total permits was set to 20 to prevent inaccurate representations when calculating average.
+Compared average permit processing times across Vancouver's geographic areas using aggregations. Again, since some categories had very few records, a minimum threshold of 20 permits was used to reduce the influence of small sample sizes on the average processing times.
 
 Finding: The geographic area with the longest permit processing times was South Cambie and the area with the shortest processing times was Downtown. Interestingly, this contrasts with permit volume in Query 1: Downtown had the highest number of permits, while South Cambie had the lowest.
 
