@@ -10,8 +10,7 @@ Overview of workflow: Business Questions → Data Preparation → SQL Analysis �
 - Tableau: interactive dashboard and KPI development
 
 ## Dataset
-I used a REST API to retrieve the Building Permit dataset from Vancouver Open Data. 
-This data includes information on building permit records from 2017-2026.
+I used the Vancouver Open Data REST API to programmatically retrieve the Building Permit dataset. The dataset contains building permit records from 2017–2026, including information on permit processing times, project values, property use, and geographic areas.
 
 ## A. Business Questions
 
