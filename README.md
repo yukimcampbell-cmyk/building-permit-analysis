@@ -14,17 +14,28 @@ I used a REST API to retrieve the Building Permit dataset from Vancouver Open Da
 This data includes information on building permit records from 2017-2026.
 
 ## A. Pre-Analysis Questions
+
 **1. Where is construction activity concentrated?**
+
 - Identifying areas with high volumes of construction activity could help highlight potential areas of focus for future investigation.
+
 **2. Which specific property-use categories have the longest average processing times?**
+  
 - Identifying property-use categories with longer processing times can help highlight areas where permitting processes may require additional time or operational attention.
+  
 **3. Do larger projects take longer to process?**
+  
   -  Understanding whether project scale is associated with longer processing times can help identify whether larger projects may require additional review or operational resources.
+    
 **4. How has construction activity changed over time?**
-- Tracking construction activity over time provides insight into changes in development activity and the overall scale of construction in Vancouver.
+     
+     - Tracking construction activity over time provides insight into changes in development activity and the overall scale of construction in Vancouver.
 **5. Are certain geographic areas associated with longer permit processing times?**
-  - Identifying geographic areas with consistently longer processing times can help highlight potential operational bottlenecks and areas that may warrant further investigation.
+
+- Identifying geographic areas with consistently longer processing times can help highlight potential operational bottlenecks and areas that may warrant further investigation.
+
 **6. Which geographic areas had the highest construction investment each year?**
+  
 - Understanding where construction investment is concentrated can help identify geographic areas experiencing the greatest levels of development activity and how these areas change over time.
 
 These questions are investigated and analyzed using SQL queries in Step C: SQL Analysis.
